@@ -1,10 +1,15 @@
 .menu{
 	color:grey;
 }
+
 body {
     margin: 60px auto;
     width: 70%;
 }
+#foto{
+	border-radius:100px;
+}
+
 div p{
 	text-align:justify;
 }
@@ -33,6 +38,60 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+}
+/*transfromasi box*/
+#box{
+	height:100px;
+	width:100px;
+	background:grey;
+	border-radius:10px;
+	transform:rotate(30deg);
+	}
+	
+#box2{
+	height:100px;
+	width:100px;
+	background:grey;
+	border-radius:50%;
+	transform:scale(0.8,0.8);
+	}
+
+#box3{
+	height:100px;
+	width:100px;
+	background:grey;
+	border-radius:10px;
+	transform:skew(-30deg);
+	}
+
+#box4{
+	height:100px;
+	width:100px;
+	background:grey;
+	border-radius:10px;
+	transform:translate(150px);
+	}
+#box5{
+	height:100px;
+	width:100px;
+	background:grey;
+	border-radius:10px;
+	transform:rotateX(15deg);
+	}
+	
+@keyframes changecolor{
+	from {background:yellow;}
+	to {background:red;}
+}	
+#anim1{
+	height:200px;
+	width:200px;
+	background:yellow;
+	animation-name:changecolor;
+	animation-duration:5s;
+}
+#judulh2{
+	font-family:"Arial";
 }
 footer {
     border-top: 1px solid #d5d5d5;
