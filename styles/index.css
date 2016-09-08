@@ -6,6 +6,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
 #foto{
 	border-radius:100px;
 }
@@ -30,7 +31,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 { /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+h1 {
     font-size: 3em;
     font-family:'Helvetica';
 }
@@ -39,7 +40,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-/*transfromasi box*/
+/*transfromation box*/
 #box{
 	height:100px;
 	width:100px;
@@ -79,20 +80,25 @@ p {
 	transform:rotateX(15deg);
 	}
 	
+/*Animation*/
 @keyframes changecolor{
 	from {background:yellow;}
 	to {background:red;}
-}	
+}
+	
 #anim1{
 	height:200px;
 	width:200px;
 	background:yellow;
 	animation-name:changecolor;
-	animation-duration:5s;
+	animation-duration:10s;
 }
+
 #judulh2{
 	font-family:"Arial";
 }
+
+/*Footer Section Styling*/
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
