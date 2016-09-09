@@ -98,6 +98,16 @@ p {
 	font-family:"Arial";
 }
 
+/*Form Styling Section*/
+form{
+	font-weight: bold;
+	font-family: "Helvetica";
+}
+
+input[type=text]{
+width:20%;
+}
+
 /*Footer Section Styling*/
 footer {
     border-top: 1px solid #d5d5d5;
