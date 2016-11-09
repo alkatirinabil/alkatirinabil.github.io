@@ -4,7 +4,8 @@
 Ini adalah personal website Nabil ALKATIRI
 
 ## Used Tags & Syntaxes:
-**CSS Syntax:**    
+**CSS Syntax:**  
+
 **Background:**  
 * background-image  
 * background-size    
